@@ -10,7 +10,7 @@ class Pessoa{
     this.peso = peso;
     //está recebendo esse valor
     this.altura= altura;
-    //valores do contrutor está recebendo valor da classe Pesoa
+    //valores do contrutor está recebendo valor da classe PeSsoa
   }
  
 
