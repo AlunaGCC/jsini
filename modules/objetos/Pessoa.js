@@ -27,3 +27,22 @@ class Pessoa{
   //exportando um objeto
 
   module.exports = Pessoa;
+
+
+/*
+
+--------------------
+Conteudo do arquivo index.js para uso da classe Pessoa
+-------------------
+
+
+const Pessoa = require('./modules/objetos/Pessoa.js');
+
+//a variavel PESSOA, represente a classe Pessoa, para criar objetos da clase
+
+
+  const joao = new Pessoa(80,1.75);//instanciando o objeto
+    console.log (joao.imc());
+
+
+*/

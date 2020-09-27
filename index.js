@@ -1,3 +1,26 @@
+
+/*
+----------
+tESTE aula - operadores aritimeticos
+---------
+*/
+const Operadores = require('./modules/objetos/OperadoresAritmeticos.js');
+//disponibilar a classe para o uso dos objetos
+
+var calculadora = new Operadores(10,5);//--> 10 + 5 = 15
+
+
+console.log(calculadora.soma());
+console.log(calculadora.subtracao());
+console.log(calculadora.multiplicacao());
+console.log(calculadora.divisao());
+console.log(calculadora.potencia());
+console.log(calculadora.mod());
+
+
+
+
+
 /*
 //definir funcinalidades/metodos baseada nos atributos/caracteristica 
   //instancia de classe pessoa
@@ -29,6 +52,9 @@ console.log(pedro.imc());
 //uso da classe pessoa, no codigo de index
 //importar a estrutura de classe pessoa
 
+
+
+/*
 const Pessoa = require('./modules/objetos/Pessoa.js');
 
 //a variavel PESSOA, represente a classe Pessoa, para criar objetos da clase
@@ -36,6 +62,9 @@ const Pessoa = require('./modules/objetos/Pessoa.js');
 
   const joao = new Pessoa(80,1.75);//instanciando o objeto
     console.log (joao.imc());
+
+*/
+
 
 
 
