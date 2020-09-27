@@ -10,7 +10,7 @@ class Pessoa{
     this.peso = peso;
     //está recebendo esse valor
     this.altura= altura;
-    //valores do contrutor está recebendo valor da classe Pesoa
+    //valores do contrutor está recebendo valor da classe PeSsoa
   }
  
 
@@ -27,6 +27,7 @@ class Pessoa{
   //exportando um objeto
 
   module.exports = Pessoa;
+<<<<<<< HEAD
 
 
 /*
@@ -46,3 +47,5 @@ const Pessoa = require('./modules/objetos/Pessoa.js');
 
 
 */
+=======
+>>>>>>> origin/master
