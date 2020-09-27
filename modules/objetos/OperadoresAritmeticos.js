@@ -32,3 +32,30 @@ class OperadoresAritmeticos{
 }
 //disponibilizar classe = transforma em um modulo
 module.exports = OperadoresAritmeticos;
+
+/*
+---------
+arquivo para teste, que estava no index.js
+-------
+----------
+tESTE aula - operadores aritimeticos
+---------
+// 
+const Operadores = require('./modules/objetos/OperadoresAritmeticos.js');
+//disponibilar a classe para o uso dos objetos
+
+var calculadora = new Operadores(10,5);//--> 10 + 5 = 15
+//if --> condicional
+var x,y;x=true;y=false;
+
+if(x){
+    console.log(calculadora.soma());
+    console.log(calculadora.subtracao());
+}
+
+if(x){
+console.log(calculadora.divisao());
+  console.log(calculadora.potencia());
+
+}
+*/
